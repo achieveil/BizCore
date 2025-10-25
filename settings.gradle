@@ -1,0 +1,4 @@
+rootProject.name = 'BizCore'
+
+// 包含子模块
+include 'backend'

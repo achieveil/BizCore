@@ -1,0 +1,13 @@
+// 根项目配置 - 多模块项目
+// 子模块在 settings.gradle 中定义
+
+group = 'com.achieveil'
+version = '0.0.1-SNAPSHOT'
+description = 'BizCore - Enterprise Attendance Management System'
+
+// 所有子项目的公共配置
+subprojects {
+    repositories {
+        mavenCentral()
+    }
+}
