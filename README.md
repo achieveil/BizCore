@@ -23,7 +23,57 @@ BizCore 是一个围绕「企业考勤、请假、加班与部门管理」的全
 
 后端 `/auth/refresh`、`/auth/logout`、`/users/reset-password` 等接口支持匿名访问，以配合前端找回密码流程，其余业务接口均需登录用户凭证。
 
----
+## 系统界面
+<div align="center">
+  <figure style="display:inline-block;width:45%;margin:0 1%;text-align:center;">
+    <img src="docs/images/Login.png" alt="登录" width="100%" />
+    <figcaption><em>登录</em></figcaption>
+  </figure>
+  <figure style="display:inline-block;width:45%;margin:0 1%;text-align:center;">
+    <img src="docs/images/ForgotPassword.png" alt="忘记密码" width="100%" />
+    <figcaption><em>忘记密码</em></figcaption>
+  </figure>
+</div>
+<div align="center">
+  <figure style="display:inline-block;width:45%;margin:0 1%;text-align:center;">
+    <img src="docs/images/DashboardHome.png" alt="管理员首页" width="100%" />
+    <figcaption><em>管理员首页</em></figcaption>
+  </figure>
+  <figure style="display:inline-block;width:45%;margin:0 1%;text-align:center;">
+    <img src="docs/images/LeaveApproval.png" alt="请假审批" width="100%" />
+    <figcaption><em>请假审批</em></figcaption>
+  </figure>
+</div>
+<div align="center">
+  <figure style="display:inline-block;width:45%;margin:0 1%;text-align:center;">
+    <img src="docs/images/EmployeesList.png" alt="员工管理" width="100%" />
+    <figcaption><em>员工管理</em></figcaption>
+  </figure>
+  <figure style="display:inline-block;width:45%;margin:0 1%;text-align:center;">
+    <img src="docs/images/DepartmentsList.png" alt="部门管理" width="100%" />
+    <figcaption><em>部门管理</em></figcaption>
+  </figure>
+</div>
+<div align="center">
+  <figure style="display:inline-block;width:45%;margin:0 1%;text-align:center;">
+    <img src="docs/images/Profile.png" alt="个人中心" width="100%" />
+    <figcaption><em>个人中心</em></figcaption>
+  </figure>
+  <figure style="display:inline-block;width:45%;margin:0 1%;text-align:center;">
+    <img src="docs/images/Attendance.png" alt="员工我的考勤" width="100%" />
+    <figcaption><em>我的考勤</em></figcaption>
+  </figure>
+</div>
+<div align="center">
+  <figure style="display:inline-block;width:45%;margin:0 1%;text-align:center;">
+    <img src="docs/images/AttendanceList.png" alt="部门考勤" width="100%" />
+    <figcaption><em>部门考勤</em></figcaption>
+  </figure>
+  <figure style="display:inline-block;width:45%;margin:0 1%;text-align:center;">
+    <img src="docs/images/AttendanceRule.png" alt="考勤规则" width="100%" />
+    <figcaption><em>考勤规则</em></figcaption>
+  </figure>
+</div>
 
 ##  项目结构
 
@@ -177,4 +227,4 @@ npm run dev
 
 ---
 
-如需问题反馈或改进建议，欢迎提交 Issue / PR。祝使用愉快！🎉
+© 2025 achieveil. All rights reserved.
