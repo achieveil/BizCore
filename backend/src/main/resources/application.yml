@@ -1,0 +1,36 @@
+spring:
+  application:
+    name: BizCore
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: ${SPRING_DATASOURCE_URL:jdbc:mysql://localhost:3306/bizcore?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai&allowPublicKeyRetrieval=true}
+    username: ${SPRING_DATASOURCE_USERNAME:root}
+    password: ${SPRING_DATASOURCE_PASSWORD:12345678}
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    database-platform: org.hibernate.dialect.MySQLDialect
+
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+
+server:
+  port: 8080
+  servlet:
+    context-path: /api
+
+logging:
+  level:
+    com.achieveil.bizcore: debug
+    org.hibernate.SQL: debug
+    org.hibernate.type.descriptor.sql.BasicBinder: trace
+
+security:
+  jwt:
+    secret: ${SECURITY_JWT_SECRET:BizCoreChangeMeSecretKeyBizCoreChangeMeSecretKey}
+    access-token-ttl: ${SECURITY_JWT_ACCESS_TTL:3600}
+    refresh-token-ttl: ${SECURITY_JWT_REFRESH_TTL:604800}
